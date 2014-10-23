@@ -1,0 +1,17 @@
+*.core
+.*.swp
+*.o
+*.a
+.depend
+tools/mkimage
+scripts/lxdialog/lxdialog
+util/addmg
+System.map
+uboot.trx
+u-boot
+u-boot.map
+u-boot.srec
+uboot.bin
+uboot_128k.bin
+uboot.img
+uboot_rom.bin

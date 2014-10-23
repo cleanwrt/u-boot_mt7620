@@ -1,0 +1,1 @@
+#define WEB_FAILSAFE_VERSION    "0.0.0.1"
