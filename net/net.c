@@ -116,17 +116,6 @@
 
 
 
-// ??????????????????????????
-//#ifdef ASUS_PRODUCT
-//#define CONFIG_NET_VLAN 1
-//#endif
-
-
-
-
-
-
-
 /* for web failsafe mod , added by hubo Jun 29th 2014 */
 unsigned char *webfailsafe_data_pointer = NULL;
 int	webfailsafe_is_running = 0;
