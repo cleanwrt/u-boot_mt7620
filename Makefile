@@ -44,7 +44,7 @@ VENDOR=
 TOPDIR	:= $(shell if [ "$$PWD" != "" ]; then echo $$PWD; else pwd; fi)
 export	TOPDIR
 
-CONFIG_CROSS_COMPILER_PATH ?= /opt/buildroot-gcc342/bin
+CONFIG_CROSS_COMPILER_PATH ?= /home/foo/.buildroot-gcc342/bin
 
 ifeq (include/config.mk,$(wildcard include/config.mk))
 # load ARCH, BOARD, and CPU configuration
@@ -1744,6 +1744,7 @@ clobber:	clean
 
 mrproper \
 distclean:	clobber unconfig
+	rm -f httpd/fsdata.c
 
 backup:
 	F=`basename $(TOPDIR)` ; cd .. ; \
